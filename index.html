@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4afe7ea470.js" crossorigin="anonymous"></script>
+    <title>Chalo Chale Travel App</title>
+</head>
+<body>
+
+    <div class="container" style="border: 1px solid black;">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container">
+                    <a href="#" class="navbar-brand fw-bold">
+                        <i class="fa-solid fa-plane-departure"></i>Chalo Chale
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="destinations.html" class="nav-link">Destinations</a></li>
+                            <li class="nav-item"><a href="booking.html" class="nav-link">Booking</a></li>
+                            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                        <a href="singnup.html" class="btn btn-warning ms-lg-3">Sign Up</a>
+                        <a href="login.html" class="btn btn-warning ms-lg-3" >Login</a>
+                    </div>
+                </div>
+            </nav>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div id="travelCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="travelCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="travelCarousel" data-bs-slide-to="1" ></button>
+                    <button type="button" data-bs-target="travelCarousel" data-bs-slide-to="2" ></button>
+                </div> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <img src="images/beach.png" class="d-block w-100" height="500" alt="Beach">
+                        <div class="carousel-caption">
+                            <h2 class="fw-bold">Explore Beutiful Beaches</h2>
+                            <p>Plan Your Next Vacation With Chalo Chale</p>
+                            <button class="btn btn-primary">Explore Now</button>
+                        </div>
+                    </div>
+
+                     <div class="carousel-item" >
+                        <img src="images/mountains.png" class="d-block w-100" height="500" alt="Mountains">
+                        <div class="carousel-caption">
+                            <h2 class="fw-bold">Adventure In Mountains</h2>
+                            <p>Discover Trekking And Hiking Packages</p>
+                            <button class="btn btn-primary">View Packages</button>
+                        </div>
+                    </div>
+
+                     <div class="carousel-item " >
+                        <img src="images/slide3.jpg" class="d-block w-100" height="500" alt="City">
+                        <div class="carousel-caption">
+                            <h2 class="fw-bold">Enjoy City  Tours</h2>
+                            <p>Book Affordable City Plans</p>
+                            <button class="btn btn-primary">Book trip</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
