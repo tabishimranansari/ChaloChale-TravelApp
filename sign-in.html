@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/4afe7ea470.js" crossorigin="anonymous"></script>
-    <title>Contact - ChaloChale</title>
+    <title>Sign In - ChaloChale</title>
 </head>
 <body>
-    <div class="container-fluid">
+     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12 p-0 m-0">
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -41,42 +41,42 @@
         </div>
     </div>
 
-    <!-- Contact Section Start -->
+    <!-- Sign In Section Start -->
     <section class="py-5 bg-light">
         <div class="container">
-            <h1 class="text-center fw-bold mb-4">Contact Us</h1>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-5">
                     <div class="card shadow">
                         <div class="card-body p-4">
+                            <h2 class="text-center fw-bold mb-4">Sign In</h2>
                             <form>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="name" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                                    </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="subject" class="form-label">Subject</label>
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Remember me</label>
                                 </div>
-                                <button class="btn btn-primary w-100" type="submit">Send Message</button>
+                                <button type="submit" class="btn btn-primary w-100">Sign In</button>
                             </form>
+                            <div class="text-center mt-3">
+                                <a href="#" class="text-primary">Forgot Password?</a>
+                            </div>
+                            <p class="text-center mt-3 mb-0">
+                                Don't have an account? <a href="sign-up.html" class="text-primary">Sign Up here</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Contact Section End -->
+    <!-- Sign In Section End -->
 
     <!-- Footer Section Start -->
     <footer class="bg-dark text-white text-center py-3">

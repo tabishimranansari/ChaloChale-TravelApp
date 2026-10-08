@@ -1,3 +1,58 @@
 .col{
     border: 1px solid red;
 }
+
+
+
+/* Card Hover Effects */
+.destination-card,
+.package-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.destination-card:hover,
+.package-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
+}
+
+.destination-card .card-img-top,
+.package-card .card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.destination-card:hover .card-img-top {
+    transform: scale(1.08);
+}
+
+/* Button hover effects */
+.destination-card .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4);
+}
+
+.destination-card .btn-outline-primary:hover {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    color: white;
+}
+
+/* Wishlist button heart animation */
+.destination-card .btn-outline-primary:active {
+    transform: scale(0.95);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .destination-card .card-img-top {
+        height: 180px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .destination-card .card-img-top {
+        height: 220px !important;
+    }
+}

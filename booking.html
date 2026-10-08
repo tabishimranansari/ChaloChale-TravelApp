@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4afe7ea470.js" crossorigin="anonymous"></script>
+    <title>Booking - ChaloChale</title>
+</head>
+<body>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 p-0 m-0">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <div class="container">
+                        <a href="index.html" class="navbar-brand fw-bold">
+                            <i class="fa-solid fa-plane-departure"></i> ChaloChale
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navmenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navmenu">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="destinations.html" class="nav-link">Destinations</a></li>
+                                <li class="nav-item"><a href="booking.html" class="nav-link">Booking</a></li>
+                                <li class="nav-item"><a href="packages.html" class="nav-link">Packages</a></li>
+                                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                            </ul>
+                            <a href="sign-up.html" class="btn btn-warning ms-lg-3">Sign Up</a>
+                            <a href="sign-in.html" class="btn btn-warning ms-lg-3">Sign In</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section class="py-5 bg-light text-center">
+        <div class="container">
+            <h1 class="fw-bold">Book your trip</h1>
+        </div>
+    </section>
+
+    <!-- Booking Form Section Start -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card shadow">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="fullName" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="destination" class="form-label">Select your destination</label>
+                                        <select class="form-select" id="destination" required>
+                                            <option value="">Select Destination</option>
+                                            <option value="Goa">Goa</option>
+                                            <option value="Manali">Manali</option>
+                                            <option value="Kerala">Kerala</option>
+                                            <option value="Agra">Agra</option>
+                                            <option value="Jaipur">Jaipur</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="travelDate" class="form-label">Travel Date</label>
+                                        <input type="date" class="form-control" id="travelDate" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="travelers" class="form-label">Number of people</label>
+                                    <input type="number" class="form-control" id="travelers" placeholder="Enter number of people" min="1" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message/Request</label>
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Any special requests or preferences?"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success w-100">Submit Booking</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Booking Form Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 ChaloChale Travel App | Designed with Bootstrap</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
